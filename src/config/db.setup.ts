@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config(); // Cargar variables de entorno
 
-async function runScript() {
+export async function runScript() {
   try {
     const connection = await mysql.createConnection({
       host: process.env.DB_HOST || 'localhost',
@@ -26,4 +26,4 @@ async function runScript() {
   }
 }
 
-runScript();
+

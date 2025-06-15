@@ -169,6 +169,11 @@ INSERT INTO users (name, email, password, role) VALUES
 INSERT INTO products (name, description, price, size, color, category, image) VALUES
 ('Camiseta Básica', 'Camiseta de algodón 100% para uso diario', 15.99, 'M', 'Azul', 'Ropa', 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a');
 ```
+⚠️ Importante: Crea la base de datos manualmente
+Antes de ejecutar la aplicación, asegúrate de crear la base de datos ecommerce manualmente desde tu cliente MySQL:
+
+
+CREATE DATABASE IF NOT EXISTS ecommerce;
 
 Ejecuta el script:
 ```bash
